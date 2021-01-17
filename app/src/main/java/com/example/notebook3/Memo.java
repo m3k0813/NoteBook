@@ -12,7 +12,6 @@ import java.util.List;
 @Entity(tableName = "memoTable")
 public class Memo implements Parcelable{
 
-    //Room에서 자동으로 id를 할당
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "memo_id")
     private int id;
