@@ -43,7 +43,6 @@ public class MemoDetailActivity extends AppCompatActivity {
         writeDetail.setOnClickListener(v -> {
             title = detailTitle.getText().toString();
             content = detailContent.getText().toString();
-            System.out.println("####1" + title + " " + content + " " + id);
             db.memoDao().update(title, content, id);
             finish();
         });
