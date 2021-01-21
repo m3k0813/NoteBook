@@ -35,8 +35,7 @@ public class NoteWriteActivity extends AppCompatActivity {
         writeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                writeMemo();
-
+                    writeMemo();
             }
         });
 

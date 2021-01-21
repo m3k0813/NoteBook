@@ -78,6 +78,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ItemVi
             textView1.setText(memo.getTitle());
             textView2.setText(memo.getContent());
 
+            //클릭 시 메모 보기
+            itemView.setOnClickListener(v -> {
+                Intent intent = new Intent(itemView.getContext(), MemoResultActivity.class);
+                intent.putExtra("data", memo);
+                itemView.getContext().startActivity(intent);
+            });
+
             //길게 클릭 시 수정, 삭제 다이얼로그
             itemView.setOnLongClickListener(v -> {
             AlertDialog.Builder ab = new AlertDialog.Builder(context); //context 객체를 생성해야 함

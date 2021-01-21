@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_keyboard_backspace_24px"
+                android:text="취소"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/titleResult"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="제목"
+            android:textSize="24dp"
+            android:maxLength="100"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/contentResult"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="내용"
+            android:textSize="28dp"
+            android:maxLength="200"
+            android:gravity="top"/>
+    </LinearLayout>
+
+</LinearLayout>
