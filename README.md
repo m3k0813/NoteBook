@@ -16,6 +16,7 @@
 
 ## 주요 기능 설명
 ### MainActivity.java - 1
+<img src = "https://user-images.githubusercontent.com/41982054/106755821-ec7ec280-6671-11eb-8792-759f1f27ac87.png" width="400px">
 ![init과 버튼1](https://user-images.githubusercontent.com/41982054/106755821-ec7ec280-6671-11eb-8792-759f1f27ac87.png)
 ![showactivity init57](https://user-images.githubusercontent.com/41982054/106755857-f99bb180-6671-11eb-84ca-76d2bf73e844.png)
 
