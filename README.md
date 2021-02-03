@@ -24,16 +24,16 @@
 *  메모 작성하기 버튼 클릭시 NoteWriteActivity로 화면 전환
 
 ### NoteWriteActivity.java 
-<img src = "https://user-images.githubusercontent.com/41982054/106755984-189a4380-6672-11eb-9d63-5d92908fb3ac.png" width="400px">
-<img src = "https://user-images.githubusercontent.com/41982054/106756013-2223ab80-6672-11eb-93ce-63dc4541beea.png" width="400px">
+<img src = "https://user-images.githubusercontent.com/41982054/106755984-189a4380-6672-11eb-9d63-5d92908fb3ac.png" width="600px">
+<img src = "https://user-images.githubusercontent.com/41982054/106756013-2223ab80-6672-11eb-93ce-63dc4541beea.png" width="600px">
 
 * EditText로 각각 제목과 내용을 입력 받음
 * 저장 버튼을 누르면 DB로 값을 저장 후 Toast 메세지 띄우고 메인 화면으로 돌아감 
 * 취소 버튼을 누르면 그대로 종료
 
 ### RecyclerAdapter.java(메모 클릭/롱클릭)
-<img src = "https://user-images.githubusercontent.com/41982054/106756030-28b22300-6672-11eb-98ba-8208ad690e7d.png" width="400px">
-<img src = "https://user-images.githubusercontent.com/41982054/106756041-2d76d700-6672-11eb-966c-340c1f716b91.png" width="400px">
+<img src = "https://user-images.githubusercontent.com/41982054/106756030-28b22300-6672-11eb-98ba-8208ad690e7d.png" width="600px">
+<img src = "https://user-images.githubusercontent.com/41982054/106756041-2d76d700-6672-11eb-966c-340c1f716b91.png" width="600px">
 
 * 메모 클릭 시 메모를 자세히 볼 수 있는 화면으로 넘겨줌
 * 메모 롱 클릭 시 다이얼로그를 띄워 메모 수정과 삭제를 함
