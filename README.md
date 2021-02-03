@@ -40,15 +40,15 @@
 ### DB
 * 데이터베이스 만드는 과정
 
-Memo.java
 
-![Memo 12](https://user-images.githubusercontent.com/41982054/106756102-42ec0100-6672-11eb-847b-cc1613bd92a5.png){: width="100" height="100"}
+Memo.java
+![Memo 12](https://user-images.githubusercontent.com/41982054/106756102-42ec0100-6672-11eb-847b-cc1613bd92a5.png)
 
 MemoDao.java
-![MemoDao3](https://user-images.githubusercontent.com/41982054/106756126-48494b80-6672-11eb-92f0-4fbffc0680eb.png){: width="100" height="100"}
+![MemoDao3](https://user-images.githubusercontent.com/41982054/106756126-48494b80-6672-11eb-92f0-4fbffc0680eb.png)
 
 MemoDatabase.java
-![DATABASE21530](https://user-images.githubusercontent.com/41982054/106756145-4da69600-6672-11eb-8608-cecc31f9968d.png){: width="100" height="100"}
+![DATABASE21530](https://user-images.githubusercontent.com/41982054/106756145-4da69600-6672-11eb-8608-cecc31f9968d.png)
 
 
 
