@@ -1,7 +1,7 @@
 # 간단한 메모장 어플 만들기
 * 프로젝트명 : NoteBook
 * 기능 : DB를 통한 메모 작성 및 수정 그리고 삭제
-
+![기본화면 215133](https://user-images.githubusercontent.com/41982054/106754844-cb69a200-6670-11eb-9257-3d233ee1a75b.png)
 
 
 
