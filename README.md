@@ -43,13 +43,16 @@
 
 
 Memo.java
+
 <img src = "https://user-images.githubusercontent.com/41982054/106756102-42ec0100-6672-11eb-847b-cc1613bd92a5.png" width="400px">
 
 MemoDao.java
-<img src = "https://user-images.githubusercontent.com/41982054/106756126-48494b80-6672-11eb-92f0-4fbffc0680eb.png" width="400px">
+
+<img src = "https://user-images.githubusercontent.com/41982054/106756126-48494b80-6672-11eb-92f0-4fbffc0680eb.png" width="600px">
 
 MemoDatabase.java
-<img src = "https://user-images.githubusercontent.com/41982054/106756145-4da69600-6672-11eb-8608-cecc31f9968d.png" width="400px">
+
+<img src = "https://user-images.githubusercontent.com/41982054/106756145-4da69600-6672-11eb-8608-cecc31f9968d.png" width="600px">
 
 
 
